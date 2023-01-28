@@ -1,0 +1,11 @@
+.hadithScroll{
+    margin:4px;
+    padding:4px;
+    background-color: goldenrod;
+    /* width: 500px; */
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align:justify;
+            
+}

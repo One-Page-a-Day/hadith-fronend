@@ -1,0 +1,8 @@
+a {
+    color:gold;
+    padding-right:1rem ;
+}
+
+a:hover{
+    color:blue;
+}
