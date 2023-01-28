@@ -32,7 +32,7 @@ function MyFavs(){
     },[]);
 
     const deleteHadith = async (index)=> {
-        let deletedResults = await axios.delete((`${serverLink}/hadith/${index}`));
+        let deletedResults = await axios.delete((`${serverLink}/hadith/${index}?username=${user.email}`));
         setResults(deletedResults.data);
         setShowItems(true);
 
