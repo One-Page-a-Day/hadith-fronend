@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 function Footer () {
     return(
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand>&copy; All rights reserved</Navbar.Brand> 
+          <Navbar.Brand><h3>&copy; All rights reserved</h3></Navbar.Brand> 
           
         </Navbar>
     )
